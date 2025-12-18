@@ -7,13 +7,13 @@
   }
 
   const faqs: FAQItem[] = [
-    { question: "Do I have to trust the lead investor with my investment?", answer: "Details about trust and lead investors..." },
-    { question: "How does Echo work?", answer: "Echo works by connecting..." },
-    { question: "I want to share my deals. Can I start a group?", answer: "Yes, you can start a group by..." },
-    { question: "I'm a founder. How do I raise money from Echo?", answer: "Founders can raise money by..." },
-    { question: "Is everyone eligible to use Echo?", answer: "Eligibility depends on..." },
-    { question: "Why do founders raise from Echo groups?", answer: "Founders choose Echo because..." },
-    { question: "Why would someone share their deals with me?", answer: "Sharing deals allows for..." }
+    { question: "How do the AI-powered strategies work?", answer: "Kvants uses advanced quantitative models combining momentum, statistical arbitrage, and market-neutral strategies. Our AI algorithms analyze market data in real-time to execute trades optimized for risk-adjusted returns. All strategies are backtested and continuously monitored by our team of quantitative analysts." },
+    { question: "What is the minimum investment?", answer: "The minimum investment is $500, making institutional-grade trading strategies accessible to retail investors. This is significantly lower than traditional hedge fund minimums which typically start at $100,000 or more." },
+    { question: "How are my funds secured?", answer: "Your funds remain in your self-custody wallet at all times. Our smart contracts are audited by two independent security firms. We use decentralized oracle integrations for price feeds and transparent on-chain execution. You maintain full control and can withdraw at any time." },
+    { question: "What is the $KVAI token used for?", answer: "The $KVAI token provides tier-based access to premium strategies, DAO governance rights to vote on which hedge fund strategies to tokenize next, and exclusive benefits. Token holders participate in platform decisions and can access higher-performing vaults based on their tier level." },
+    { question: "What are the different vault strategies?", answer: "We offer multiple strategy types: Market Neutral (balanced risk), Earn (stable yields), Directional (momentum-based), and Statistical Arbitrage. Each vault has different risk/reward profiles, from conservative 12.6% APY stable strategies to aggressive 54.8% APY directional strategies." },
+    { question: "Can I withdraw my funds at any time?", answer: "Yes, you maintain full control of your assets through self-custody. Withdrawals can be initiated at any time through your connected wallet. Processing times may vary based on the specific vault strategy and blockchain network conditions." },
+    { question: "What blockchain networks do you support?", answer: "Kvants is built primarily on Solana for fast, low-cost transactions. We integrate with leading DeFi protocols including Drift Protocol and Jupiter. USDC is the primary deposit asset, with support for ETH, BTC, and SOL across various strategies." }
   ];
 
   let openIndex: number | null = null;
@@ -23,13 +23,16 @@
   }
 </script>
 
-<section class="bg-[#f5f5f5] px-6 py-24">
+<section class="bg-[#f5f5f5] px-6 py-24 border-t border-gray-200">
   <div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
     <div class="lg:col-span-4">
       <h2 class="font-serif text-4xl text-gray-900 mb-6">
         Frequently asked questions
       </h2>
-      <a href="/" class="text-sm text-gray-900 border-b border-gray-300 pb-0.5 hover:border-black transition-colors">See all support</a>
+      <p class="text-sm text-gray-500 mb-4">
+        Everything you need to know about Kvants and our AI-powered trading strategies.
+      </p>
+      <a href="/" class="text-sm text-gray-900 border-b border-gray-300 pb-0.5 hover:border-black transition-colors">Contact support</a>
     </div>
     
     <div class="lg:col-span-8">
